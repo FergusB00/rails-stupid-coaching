@@ -1,0 +1,8 @@
+<body class=>
+<h1 class="ml-3">Stupid Coaching</h1>
+<p>Ask your coach anything</p>
+<form action="/answer" data-turbo="false" class="pl-2">
+  <input type="text" name="question" value="<%= params[:question] %>" class="border rounded ml-2">
+  <input type="submit" value="Ask!" class="btn-primary rounded">
+</form>
+</body>
